@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
     height: 100px;
-    background-color: #abdbe3;
+    background-color: #dae5e7;
     display: flex;
     justify-content: space-between;
     
@@ -16,31 +16,125 @@
 }
 
 .div-navbar a {
-    color: #ffffff;
+    color: #3a3c3d;
     font-size: 20px;
     font-family: 'Titillium Web', sans-serif;
     
 }
 
-.container {
-    height: 30%;
-    width: 60%;
-    padding: 100px;
-    justify-content: center;
-    left: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    
-
+#carrinho {
+    padding-top: 30px;  
 }
+
+.container-pai {
+    height: 550px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    justify-content: space-around;
+    display: flex;
+    
+}
+
 .texto {
     text-align: center;
     display: flex;
-    margin: 0;
-    padding: 5px;
-    height: 5%;
-    left: 20px;
-   
-    
-  
+     width: 400px;  
+     padding-left: 50px;
+     font-family: 'Playfair Display', serif;
 }
+
+ .produtos-container {
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+
+
+} 
+
+.titulo-produtos {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+     width: 700px;
+     height: 100px;
+     text-align: right;    
+}
+
+ 
+
+#container {
+    display: flex;   
+   
+}
+
+.produto {
+    display: flex;
+    justify-content: space-between;
+    background-color: #dae5e7;
+   align-items: center;
+
+   }
+
+   .cadastro {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    margin: 20px;
+    
+   }
+
+   .caixa-produto{
+    background-color: #dae5e7;
+ }
+
+
+   .button {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    height: 200px;
+    margin: 80px;
+    width: 10%;
+    text-align: center;
+    display: flex;
+   
+    }
+
+    .button:active {
+        color: #dae5e7;
+    
+    }
+    .button:hover {
+        color: #3a3c3d;
+
+    }
+    .caixa {
+        background-color: #dae5e7;
+    }
+   
+    .endereco {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    
+    }
+
+    .rede-social {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    height: 90px;
+   text-align: center;
+    
+    }
+    
+    
+
+    
