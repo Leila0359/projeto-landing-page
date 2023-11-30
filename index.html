@@ -12,9 +12,9 @@
     <header class="navbar">
       <img src="imagens/logo.jpg" alt="logotipo" />
       <div class="div-navbar">
-        <a href="">Página Principal</a>
-        <a href="">Produtos</a>
-        <a href="">Sobre Nós</a>
+        <a href="index.html">Página Principal</a>
+        <a href="#produtos">Produtos</a>
+        <a href="index.html">Sobre Nós</a>
       </div>
       <img id="carrinho" src="imagens/svg/carrinho.svg" alt="Carrinho" />
     </header>
@@ -40,79 +40,77 @@
           </p>
         </div>
       </div>
-      
-
-      <div class="produtos-container">
+      <div class="produtos-container" id="produtos">
         <h1 class="titulo-produtos">Produtos</h1>
-      
+
         <div class="container">
           <div>
-          <img src="imagens/tenis1.jpg" alt="Tênis" /> 
+            <img src="imagens/tenis1.jpg" alt="Tênis" />
             <div class="produto">
-                <p>Valor</p>
-                <p>R$ 759,99</p>
+              <p>Valor</p>
+              <p>R$ 759,99</p>
             </div>
           </div>
           <div>
             <img src="imagens/tenis2.jpg" alt="Tênis" />
             <div class="produto">
-                <p>Valor</p>
-                <p>R$ 399,99</p>
+              <p>Valor</p>
+              <p>R$ 399,99</p>
             </div>
           </div>
           <div>
             <img src="imagens/tenis3.jpg" alt="Tênis" />
             <div class="produto">
-                <p>Valor</p>
-                <p>R$ 899,99</p>
-
-              </div>
+              <p>Valor</p>
+              <p>R$ 899,99</p>
             </div>
           </div>
         </div>
       </div>
     </main>
-    <div>
+    <div class="caixa-pai">
       <div class="caixa">
         <div class="cadastro">
-            <p>Cadastre-se para receber novidades dos nossos produtos</p>
-          
+          <p>Cadastre-se para receber novidades dos nossos produtos</p>
         </div>
-        <div class="button">
-        <form action="">
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" />
-
+       
+          <form action=""class="button">
+            <div class="button-nome">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" class="input-formulario"/>
+  
+        </div>
+        <div class="button-email">
           <label for="email">E-mail</label>
-          <input type="email" id="email" name="email" />
-          
-          <div class="button-enviar">
-
-          <input type="submit" 
-           value="enviar">
-
+          <input type="email" id="email" name="email" class="input-formulario"/>
         </div>
-          
+          <div class="enviar">
+          <div class="button-enviar">
+           <input type="submit" value="enviar" />
+            </div>
+          </div>
+
         </form>
       </div>
     </div>
-    <footer>
-      <div>
+    <footer class="rodape">
+      <div class="container-caixa">
         <div class="endereco">
-        <p>Endereço da loja</p>
-        <p>SAC da loja 0800-400</p>
+          <p>Endereço da loja</p>
+          <p>SAC da loja 0800-400</p>
         </div>
-          
+       <div class="rede-social">
+          <p>Redes Sociais</p>
+          <div class="link">
+            <a href="https://www.instagram.com/"><img src="imagens/instagram.png" alt="Instagram" /></a>
+            <a href="https://www.facebook.com/"><img src="imagens/facebook.png" alt="Facebook" /></a>
+            <a href="https://api.whatsapp.com/send?phone=5571999587494"><img src="imagens/whatsapp .png" alt="whatsapp" /></a>
+          </div>
         </div>
       </div>
-      <div class="rede-social">
-        <p>Redes Sociais</p>
-        <img src="imagens/instagram.png" alt="Instagram" />
-        <img src="imagens/facebook.png" alt="Facebook" />
-        <img src="imagens/whatsapp.png" alt="whatsapp"
+      <div class="texto-rodape"
+        <p>&copy; 2023 Linha Tênis Comfort. Todos os direitos reservados</p>
       </div>
-      <p>&copy; 2023 Linha Tênis Comfort. Todos os direitos reservados</p>
-    </div>
     </footer>
   </body>
 </html>
